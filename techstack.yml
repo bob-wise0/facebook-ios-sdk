@@ -1,7 +1,8 @@
 repo_name: bob-wise0/facebook-ios-sdk
-report_id: 668f9badcceaec551eb498a5bd9dc1e6
+report_id: 2d4230aaa6179411f62d851b01940c76
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-08T21:04:23+00:00'
+timestamp: '2024-03-06T18:20:27+00:00'
 requested_by: jawwad
 provider: github
 branch: main
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/bob-wise0/facebook-ios-sdk
   detection_source: Repo Metadata
 - name: C++
   description: Has imperative, object-oriented and generic programming features, while
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1049/cplusplus.png
+  detection_source_url: https://github.com/bob-wise0/facebook-ios-sdk
   detection_source: Repo Metadata
 - name: Objective-C
   description: The primary programming language you use when writing software for
@@ -35,6 +38,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1008/xcode.png
+  detection_source_url: https://github.com/bob-wise0/facebook-ios-sdk
   detection_source: Repo Metadata
 - name: Python
   description: A clear and powerful object-oriented programming language, comparable
@@ -45,6 +49,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/bob-wise0/facebook-ios-sdk
   detection_source: Repo Metadata
 - name: Ruby
   description: A dynamic, interpreted, open source programming language with a focus
@@ -55,6 +60,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/bob-wise0/facebook-ios-sdk
   detection_source: Repo Metadata
 - name: Shell
   description: A shell is a text-based terminal, used for manipulating programs and
@@ -65,9 +71,10 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/bob-wise0/facebook-ios-sdk
   detection_source: Repo Metadata
 - name: Swift
-  description: 'An innovative new programming language for Cocoa and Cocoa Touch. '
+  description: An innovative new programming language for Cocoa and Cocoa Touch.
   website_url: https://developer.apple.com/swift/
   license: Apache-2.0
   open_source: true
@@ -75,6 +82,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
+  detection_source_url: https://github.com/bob-wise0/facebook-ios-sdk
   detection_source: Repo Metadata
 - name: CircleCI
   description: Automate your development process quickly, safely, and at scale
@@ -84,7 +92,10 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source_url: https://github.com/bob-wise0/facebook-ios-sdk/blob/main/.circleci/config.yml
   detection_source: ".circleci/config.yml"
+  last_updated_by: Joe Susnick
+  last_updated_on: 2020-06-17 19:20:49.000000000 Z
 - name: Git
   description: Fast, scalable, distributed revision control system
   website_url: http://git-scm.com/
@@ -93,6 +104,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/bob-wise0/facebook-ios-sdk
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -102,7 +114,10 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/stale.yml"
+  detection_source_url: https://github.com/bob-wise0/facebook-ios-sdk/blob/main/.github/workflows/needs-attention.yml
+  detection_source: ".github/workflows/needs-attention.yml"
+  last_updated_by: Xabi Losada
+  last_updated_on: 2021-10-26 16:10:24.000000000 Z
 - name: Istio
   description: Open platform to connect, manage, and secure microservices, by Google,
     IBM, and Lyft
@@ -113,7 +128,10 @@ tools:
   category: Build, Test, Deploy
   sub_category: Microservices Tools
   image_url: https://img.stackshare.io/service/7028/AGpa5VZV.jpg
-  detection_source: xcodegen_project_common.yml
+  detection_source_url: https://github.com/bob-wise0/facebook-ios-sdk/blob/main/.swiftlint.yml
+  detection_source: ".swiftlint.yml"
+  last_updated_by: joesusnick
+  last_updated_on: 2019-09-27 21:35:24.000000000 Z
 - name: RubyGems
   description: Easily download, install, and use ruby software packages on your system
   website_url: https://rubygems.org/
@@ -122,7 +140,10 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/bob-wise0/facebook-ios-sdk/blob/main/Gemfile
   detection_source: Gemfile
+  last_updated_by: Cody Winton
+  last_updated_on: 2018-12-19 21:58:20.000000000 Z
 - name: CocoaPods
   description: A dependency manager for Swift and Objective-C Cocoa projects
   website_url: https://cocoapods.org/
@@ -132,8 +153,10 @@ tools:
   category: Libraries
   sub_category: CocoaPods Packages
   image_url: https://img.stackshare.io/service/2426/e1cbdef9d4b11484049a033886578e54_400x400.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/bob-wise0/facebook-ios-sdk/blob/main/Gemfile.lock
   detection_source: Gemfile
+  last_updated_by: Cody Winton
+  last_updated_on: 2018-12-19 21:58:20.000000000 Z
 - name: cocoapods
   description: CocoaPods manages library dependencies for your Xcode project
   package_url: https://rubygems.org/cocoapods
@@ -144,8 +167,10 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19189/default_2266a6c0e2693d55b1999a7c5db4be13e5720232.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/bob-wise0/facebook-ios-sdk/blob/main/Gemfile.lock
   detection_source: Gemfile
+  last_updated_by: Cody Winton
+  last_updated_on: 2018-12-19 21:58:20.000000000 Z
 - name: xcpretty
   description: Xcodebuild formatter designed to be piped with `xcodebuild`, and thus
     keeping 100% compatibility
@@ -157,5 +182,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19625/default_0c27dd60ad71a3bb03b32c540d094735c1d3fd06.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/bob-wise0/facebook-ios-sdk/blob/main/Gemfile.lock
   detection_source: Gemfile
+  last_updated_by: joesusnick
+  last_updated_on: 2020-05-06 21:36:01.000000000 Z
